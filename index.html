@@ -2,39 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Saniya Khan, LPC - Home</title>
+    <title>Home - Saniya Khan, LPC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services Offered</a></li>
-            <li><a href="about.html">About Saniya</a></li>
-        </ul>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Saniya Khan, LPC</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');">
+        <div class="container">
+            <h1>Welcome to the Practice of Saniya Khan, LPC</h1>
+            <p>Empowering Your Journey to Mental Wellness</p>
+            <a href="contact.html" class="btn">Schedule an Appointment</a>
+        </div>
+    </header>
 
     <!-- Main Content -->
     <main>
-        <h1>Welcome to the Practice of Saniya Khan, LPC</h1>
-        <img src="images/home.jpg" alt="Welcoming counseling office" style="width:100%;height:auto;">
-        <p>Saniya is a Licensed Professional Counselor in the state of Texas...</p>
-        <!-- Add more content as needed -->
+        <div class="container">
+            <section class="intro">
+                <h2>About Saniya</h2>
+                <p>Saniya is a Licensed Professional Counselor (LPC) in the state of Texas. She received her Bachelor of Arts in Psychology from the University of Tennessee at Knoxville. She continued her education and earned a Master of Science in Clinical Mental Health Counseling from the University of Memphis, a nationally accredited CACREP program. Saniya has experience working with individuals dealing with Eating Disorders, Anxiety, Depression, Post-Traumatic Stress Disorder, and Substance Abuse Addictions.</p>
+                <a href="about.html" class="btn">Learn More</a>
+            </section>
+
+            <section class="services">
+                <h2>Services Offered</h2>
+                <div class="service-grid">
+                    <!-- Service 1 -->
+                    <div class="service-item">
+                        <img src="https://images.pexels.com/photos/2161640/pexels-photo-2161640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Eating Disorders">
+                        <h3>Eating Disorders</h3>
+                        <p>Comprehensive therapy for overcoming eating disorders and promoting a healthy relationship with food.</p>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-item">
+                        <img src="https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Anxiety Management">
+                        <h3>Anxiety Management</h3>
+                        <p>Effective strategies and counseling to manage anxiety and improve overall well-being.</p>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-item">
+                        <img src="https://images.pexels.com/photos/3714055/pexels-photo-3714055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Depression Therapy">
+                        <h3>Depression Therapy</h3>
+                        <p>Supportive therapy to help you navigate through depression and find hope.</p>
+                    </div>
+                </div>
+                <a href="services.html" class="btn">View All Services</a>
+            </section>
+        </div>
     </main>
 
-    <!-- Footer (Contact Section) -->
+    <!-- Footer -->
     <footer>
-        <h2>Contact Me</h2>
-        <p>
-            <img src="images/email_icon.png" alt="Email icon" style="width:24px;height:24px;vertical-align:middle;">
-            Email: <a href="mailto:saniya@example.com">saniya@example.com</a>
-        </p>
-        <p>
-            <img src="images/phone_icon.png" alt="Phone icon" style="width:24px;height:24px;vertical-align:middle;">
-            Phone: (123) 456-7890
-        </p>
-        <p>Office Address: 123 Counseling Lane, Houston, TX</p>
+        <div class="container">
+            <p>© 2023 Saniya Khan, LPC. All rights reserved.</p>
+            <p>Email: <a href="mailto:saniya@example.com">saniya@example.com</a> | Phone: (123) 456-7890</p>
+        </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>

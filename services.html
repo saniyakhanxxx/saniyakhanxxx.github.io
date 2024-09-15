@@ -2,71 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Services Offered - Saniya Khan, LPC</title>
+    <title>Services - Saniya Khan, LPC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services Offered</a></li>
-            <li><a href="about.html">About Saniya</a></li>
-        </ul>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Saniya Khan, LPC</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
 
     <!-- Main Content -->
     <main>
-        <h1>Services Offered</h1>
+        <div class="container">
+            <h1>Services Offered</h1>
 
-        <!-- Eating Disorders -->
-        <section>
-            <h2>Eating Disorders</h2>
-            <img src="images/eating_disorders.jpg" alt="Balanced meal representing healthy eating habits" style="width:100%;height:auto;">
-            <p>Description about eating disorders therapy...</p>
-        </section>
+            <!-- Service 1 -->
+            <section class="service-detail">
+                <img src="https://images.pexels.com/photos/2161640/pexels-photo-2161640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Eating Disorders">
+                <h2>Eating Disorders</h2>
+                <p>Specialized therapy to help individuals overcome eating disorders such as anorexia, bulimia, and binge eating. Saniya provides a supportive environment to develop healthy eating habits and improve self-image.</p>
+            </section>
 
-        <!-- Anxiety Management -->
-        <section>
-            <h2>Anxiety Management</h2>
-            <img src="images/anxiety_management.jpg" alt="Peaceful nature scene representing calmness" style="width:100%;height:auto;">
-            <p>Description about anxiety management therapy...</p>
-        </section>
+            <!-- Service 2 -->
+            <section class="service-detail">
+                <img src="https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Anxiety Management">
+                <h2>Anxiety Management</h2>
+                <p>Effective counseling techniques to manage anxiety, reduce stress, and enhance coping mechanisms. Learn strategies to handle anxiety triggers and lead a calmer life.</p>
+            </section>
 
-        <!-- Depression Therapy -->
-        <section>
-            <h2>Depression Therapy</h2>
-            <img src="images/depression_therapy.jpg" alt="Person seeking comfort representing support" style="width:100%;height:auto;">
-            <p>Description about depression therapy...</p>
-        </section>
+            <!-- Service 3 -->
+            <section class="service-detail">
+                <img src="https://images.pexels.com/photos/3714055/pexels-photo-3714055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Depression Therapy">
+                <h2>Depression Therapy</h2>
+                <p>Compassionate therapy aimed at understanding the root causes of depression. Saniya works with you to develop personalized strategies to improve mood and regain joy in life.</p>
+            </section>
 
-        <!-- PTSD Support -->
-        <section>
-            <h2>Post-Traumatic Stress Disorder Support</h2>
-            <img src="images/ptsd_support.jpg" alt="Introspective moment representing healing" style="width:100%;height:auto;">
-            <p>Description about PTSD support...</p>
-        </section>
+            <!-- Service 4 -->
+            <section class="service-detail">
+                <img src="https://images.pexels.com/photos/2257698/pexels-photo-2257698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="PTSD Support">
+                <h2>Post-Traumatic Stress Disorder Support</h2>
+                <p>Supportive counseling for individuals experiencing PTSD. Learn to process traumatic events and reduce symptoms through proven therapeutic methods.</p>
+            </section>
 
-        <!-- Substance Abuse Counseling -->
-        <section>
-            <h2>Substance Abuse Counseling</h2>
-            <img src="images/substance_abuse.jpg" alt="Pathway representing recovery" style="width:100%;height:auto;">
-            <p>Description about substance abuse counseling...</p>
-        </section>
+            <!-- Service 5 -->
+            <section class="service-detail">
+                <img src="https://images.pexels.com/photos/2421347/pexels-photo-2421347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Substance Abuse Counseling">
+                <h2>Substance Abuse Counseling</h2>
+                <p>Comprehensive counseling for overcoming addictions to substances. Saniya provides guidance on the path to recovery, focusing on both mental and physical health.</p>
+            </section>
+        </div>
     </main>
 
-    <!-- Footer (Contact Section) -->
+    <!-- Footer -->
     <footer>
-        <h2>Contact Me</h2>
-        <p>
-            <img src="images/email_icon.png" alt="Email icon" style="width:24px;height:24px;vertical-align:middle;">
-            Email: <a href="mailto:saniya@example.com">saniya@example.com</a>
-        </p>
-        <p>
-            <img src="images/phone_icon.png" alt="Phone icon" style="width:24px;height:24px;vertical-align:middle;">
-            Phone: (123) 456-7890
-        </p>
-        <p>Office Address: 123 Counseling Lane, Houston, TX</p>
+        <div class="container">
+            <p>© 2023 Saniya Khan, LPC. All rights reserved.</p>
+            <p>Email: <a href="mailto:saniya@example.com">saniya@example.com</a> | Phone: (123) 456-7890</p>
+        </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
